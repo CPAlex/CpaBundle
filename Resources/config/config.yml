@@ -1,0 +1,11 @@
+plugin:
+    has_options: true
+    tools:
+        -
+            name: Cpa
+            is_displayable_in_workspace: true
+            is_displayable_in_desktop: true
+            tool_rights:
+              - name: action_cpa
+#                granted_icon_class: simusante_tool_granted
+#                denied_icon_class: simusante_tool_denied	

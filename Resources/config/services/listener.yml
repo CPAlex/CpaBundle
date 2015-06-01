@@ -1,0 +1,5 @@
+claroline.listener.Cpa
+_mytool:					
+    class: Simu\CpaBundle\Listener\CpaListener.php	
+    tags:
+      - { name: kernel.event_listener, event: open_tool_desktop_Cpa, method: onDisplayDesktop }

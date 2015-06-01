@@ -1,0 +1,4 @@
+cpa_controller:
+    resource: "@SimuCpaBundle/Controller/CpaController.php"
+    type: annotation
+    prefix: /
